@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+## [3.26.0] - 2020-03-16
+
+### Changed
+
++ Updated hydrus server version
+
 ## [3.25.0] - 2020-02-13
 
 ### Changed
