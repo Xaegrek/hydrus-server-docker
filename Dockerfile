@@ -47,7 +47,6 @@ RUN \
   chmod +x \
     server.py \
     bin/swfrender_linux \
-    bin/upnpc_linux && \
   mkdir /data && chown -R ${USER_ID}:${GROUP_ID} /data
 
 COPY docker-cmd-start.sh /usr/local/bin/start
