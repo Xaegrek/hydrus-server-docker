@@ -190,5 +190,5 @@ Update Hydrus version:
 - commit and push
 - create release
 
-- docker build -t <dockeruser>/<dockerrepo>:<version tag> <github repo>
+- docker build -t <dockeruser>/<dockerrepo>:<version tag> <github repo>#<version tag>
 - push to docker hub
