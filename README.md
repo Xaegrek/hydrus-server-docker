@@ -181,3 +181,11 @@ You are welcome to help out!
 
 [maintainer]: https://github.com/mserajnik
 [issues]: https://github.com/mserajnik/hydrus-server-docker/issues/new
+
+## Maintainer Notes:
+Update Hydrus version:
+- Clone Repo
+- cd into hydrus folder
+- git checkout tags/<version>
+- commit and push
+- create release
