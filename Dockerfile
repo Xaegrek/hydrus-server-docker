@@ -33,7 +33,7 @@ RUN \
     pillow~=7.0.0 \
     psutil~=5.6.7 \
     pylzma~=0.5.0 \
-    pyopenssl~=22.0.0 \
+    pyopenssl~=23.0.0 \
     pyyaml~=5.3 \
     requests~=2.22.0 \
     send2trash~=1.5.0 \
