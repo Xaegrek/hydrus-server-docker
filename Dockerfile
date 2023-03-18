@@ -38,6 +38,7 @@ RUN \
     requests~=2.22.0 \
     send2trash~=1.5.0 \
     service_identity~=18.1.0 \
+    typing_extensions~=4.5.0\
     twisted~=19.10.0 && \
   rm -r ~/.cache && \
   apt-get remove build-essential --purge -y && \
