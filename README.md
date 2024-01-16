@@ -162,9 +162,9 @@ You are welcome to help out!
 [MIT](LICENSE.md) © Michael Serajnik
 
 [hydrus-server]: http://hydrusnetwork.github.io/hydrus/
-[hydrus-server-version]: https://github.com/hydrusnetwork/hydrus/releases/tag/v384
-[docker-hub]: https://hub.docker.com/r/mserajnik/hydrus-server-docker/
-[docker-hub-tags]: https://hub.docker.com/r/mserajnik/hydrus-server-docker/tags/
+[hydrus-server-version]: https://github.com/hydrusnetwork/hydrus/releases/tag/v520
+[docker-hub]: https://hub.docker.com/r/xaegrek/hydrus-server-docker/
+[docker-hub-tags]: https://hub.docker.com/r/xaegrek/hydrus-server-docker/tags/
 [docker]: https://www.docker.com/
 [semantic-versioning]: https://semver.org/
 
