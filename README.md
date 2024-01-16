@@ -5,7 +5,7 @@
 This is a simple Debian-based Docker setup for running
 [hydrus server][hydrus-server] from source.
 
-The latest build runs [hydrus server version 388][hydrus-server-version].
+The latest build runs [hydrus server version 520][hydrus-server-version].
 
 ## Table of contents
 
