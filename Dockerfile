@@ -46,7 +46,7 @@ RUN \
   rm -rf /var/lib/apt/lists/* && \
   chown -R ${USER_ID}:${GROUP_ID} /usr/src/app && \
   chmod +x \
-    server.py \
+    hydrus_server.py \
     bin/swfrender_linux && \
   mkdir /data && chown -R ${USER_ID}:${GROUP_ID} /data
 
