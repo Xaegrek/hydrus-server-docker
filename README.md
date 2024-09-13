@@ -194,12 +194,12 @@ Update Hydrus version:
 - push to docker hub
 
 cd hydrus
-git checkout tags/v530
+git checkout tags/585
 cd ..
-git commit -a -m "v530"
+git commit -a -m "585"
 git push
-git tag v530
-git push origin v530
-CREATE RELEASE MANUALLY IN GITHUB
-docker build -t xaegrek/hydrus-server-docker:v530 github.com/Xaegrek/hydrus-server-docker#v530
-docker push xaegrek/hydrus-server-docker:v530
+git tag 585
+git push origin 585
+-CREATE RELEASE MANUALLY IN GITHUB
+docker build -t xaegrek/hydrus-server-docker:585 github.com/Xaegrek/hydrus-server-docker#585
+docker push xaegrek/hydrus-server-docker:585
