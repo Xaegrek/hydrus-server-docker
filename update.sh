@@ -16,4 +16,5 @@ echo "push commit"
 git push
 
 echo "push tag"
-git push master $1
+git remote -v
+git push origin $1
