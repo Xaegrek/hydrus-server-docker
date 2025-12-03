@@ -24,7 +24,9 @@ jobs:
         run: bash update.sh ${{ github.event.inputs.hydrus_tag }}
       - name: Release
         uses: softprops/action-gh-release@v2
-
+        with:
+          tag_name: ${{ github.event.inputs.hydrus_tag }}
+          
       - name: Log in to Docker Hub
         uses: docker/login-action@v2
         with:
