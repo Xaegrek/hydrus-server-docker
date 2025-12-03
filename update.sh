@@ -1,14 +1,19 @@
 #!/bin/bash
-# checkout master
+echo "checkout master"
 git checkout master
-# update submodules
+
+echo "update submodules"
 git submodule update --init --recursive
 git submodule foreach "git checkout tags/$1 || exit 1"
-# commit submodule updated HEAD
+
+echo "commit submodule updated HEAD"
 git commit -a -m "$1"
-# tag commit
+
+echo "tag commit"
 git tag $1
-# push commit
+
+echo "push commit"
 git push
-#push tag
+
+echo "push tag"
 git push master $1
