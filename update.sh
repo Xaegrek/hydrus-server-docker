@@ -18,3 +18,9 @@ git push
 echo "push tag"
 git remote -v
 git push origin $1
+
+echo "build docker"
+docker build -t xaegrek/hydrus-server-docker:$1 .
+
+echo "push version to docker"
+docker push xaegrek/hydrus-server-docker:$1
