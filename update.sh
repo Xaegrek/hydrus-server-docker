@@ -13,14 +13,14 @@ echo "tag commit"
 git tag $1
 
 echo "push commit"
-git push
+#git push
 
 echo "push tag"
-git remote -v
-git push origin $1
+#git remote -v
+#git push origin $1
 
 echo "build docker"
-docker build -t xaegrek/hydrus-server-docker:$1 .
+#docker build -t xaegrek/hydrus-server-docker:$1 .
 
 echo "push version to docker"
-docker push xaegrek/hydrus-server-docker:$1
+#docker push xaegrek/hydrus-server-docker:$1
