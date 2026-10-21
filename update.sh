@@ -4,7 +4,8 @@ git checkout master
 
 echo "update submodules"
 git submodule update --init --recursive
-git submodule foreach "git fetch --tags || git checkout tags/$1 || exit 1"
+git submodule foreach "git fetch --tags || exit 1"
+git submodule foreach "git checkout tags/$1 || exit 1"
 
 echo "commit submodule updated HEAD"
 git commit -a -m "$1"
