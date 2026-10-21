@@ -25,3 +25,6 @@ docker build -t xaegrek/hydrus-server-docker:$1 .
 
 echo "push version to docker"
 docker push xaegrek/hydrus-server-docker:$1
+
+echo "Done."
+exec bash
